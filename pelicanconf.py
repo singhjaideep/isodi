@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = False
 RELATIVE_URLS = True
 STATIC_PATHS = ['images', 'pdfs']
 
-THEME = "/blue-penguin"
+THEME = "blue-penguin"
 
 MENUITEMS = (
     ('xkcd', 'http://xkcd.com/'),
