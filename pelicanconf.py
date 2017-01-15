@@ -32,10 +32,10 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 STATIC_PATHS = ['images', 'pdfs']
 
-THEME = "/Users/jaideepsingh/Projects/isodi/blue-penguin"
+THEME = "/blue-penguin"
 
 MENUITEMS = (
     ('xkcd', 'http://xkcd.com/'),
