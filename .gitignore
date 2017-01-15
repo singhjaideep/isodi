@@ -90,3 +90,6 @@ ENV/
 
 # Stupid mac
 .DS_Store
+**/.DS_Store
+blue-penguin/static/.DS_Store
+blue-penguin/templates/.DS_Store
