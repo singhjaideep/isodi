@@ -38,7 +38,7 @@ STATIC_PATHS = ['images', 'pdfs']
 THEME = "blue-penguin"
 
 MENUITEMS = (
-    ('Blog', '/category/blog.html'),
-    ('Comics', '/category/comic.html'),
+    ('Blog', 'https://github.com/singhjaideep/isodi/category/blog.html'),
+    ('Comics', 'https://github.com/singhjaideep/isodi/category/comic.html'),
     ('Github', 'https://github.com/singhjaideep'),
 )
