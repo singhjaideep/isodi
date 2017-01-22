@@ -26,7 +26,53 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">Jan 19, 2017</h4>
+        <div id="content">            <h4 class="date">Jan 21, 2017</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="./big-deal-with-commenting.html" rel="bookmark" title="Permanent Link to &quot;Big deal with Commenting&quot;">Big deal with Commenting</a>
+                </h2>
+
+                
+                
+
+                <p>I would love to add comments to this blog. But there are a few hiccups. This is a static blog, hosted on github pages, so its not simple as it seems. I explored various avenues to add commenting, taking into account different factors. Here are what my options boil down to:</p>
+<ol>
+<li>Third party services like Disqus,facebook etc.<ul>
+<li>Pros: Easiest to integrate, lot of "social" tools.</li>
+<li>Cons: Javascript, external scripts, users need to create account</li>
+</ul>
+</li>
+<li><a href="https://posativ.org/isso/">Isso</a> : Simple commenting system backed by SQLite<ul>
+<li>Pros: No external js needed.</li>
+<li>Cons: Github doesn't allow sql of anytime on github pages.. so nope</li>
+</ul>
+</li>
+<li><a href="http://ivanzuzak.info/2011/02/18/github-hosted-comments-for-github-hosted-blogs.html">Super duper hack using github API, issues and posthooks</a><ul>
+<li>Pros: Hard to implement, but good learing exprience</li>
+<li>Cons: Hard to implement, users require github cred</li>
+</ul>
+</li>
+<li><a href="https://codepen.io/joshbivens/pen/jbNJJR">Roll my own commenting system using Firebase</a><ul>
+<li>Pros: Firebase handles all sql stuff</li>
+<li>Cons: Need to maintain spam rules and other stuff</li>
+</ul>
+</li>
+<li><a href="https://bernhard.scheirle.de/posts/2014/March/29/static-comments-via-email/">Static comments hack via email</a><ul>
+<li>Pros: Users just need an email, no account needs to be created</li>
+<li>Cons: Pretty barbaric don't you think?</li>
+</ul>
+</li>
+</ol>
+<p>Out of all these I liked 4 and 5. I like 4 more because its more user friendly, and I can think off all the spam detection stuff later. If its too hard to setup I'll go with 5.</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="./big-deal-with-commenting.html">posted at 21:51</a>
+                    &nbsp;&middot;&nbsp;<a href="./category/blog.html" rel="tag">Blog</a>
+                </div>
+		<a href="./big-deal-with-commenting.html#disqus_thread">Click to read and post comments</a>
+            </article>            <h4 class="date">Jan 19, 2017</h4>
 
             <article class="post">
                 <h2 class="title">
